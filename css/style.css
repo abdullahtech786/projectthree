@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.banner{
+	width: 100%;
+	/* background-image: url('../images/portfolio-item57.jpg'); */
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	height: 100vh;
+	background-attachment: fixed;
+	/* flex-direction: column; */
+}
+.commonbg1{
+	background-image: url('../images/portfolio-item57.jpg');
+}
+.commonbg2{
+	background-image: url('../images/portfolio-item58.jpg');
+}
+.commonbg3{
+	background-image: url('../images/portfolio-item59.jpg');
+}
+.box{
+	flex: 0 0 50%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 20px 40px 30px;
+	color: #ffffff;
+	border-radius: 12px;
+}
+.box h1{
+	text-transform: capitalize;
+	color: #c0392b;
+	font-weight: bold;
+	font-size: 60px;
+}
+.box p{
+	text-align: justify;
+}
+.btn{
+	padding: 10px 30px;
+	border: none;
+	outline: none;
+	background-color: orange;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 4px;
+	transition: all 0.5s linear;
+}
+.btn:hover{
+	background: transparent;
+	border: 2px solid orange;
+}
