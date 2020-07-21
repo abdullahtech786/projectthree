@@ -53,6 +53,7 @@
 	color: #fff;
 	border-radius: 4px;
 	transition: all 0.5s linear;
+	border: 2px solid orange;
 }
 .btn:hover{
 	background: transparent;
